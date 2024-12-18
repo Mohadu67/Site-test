@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* enlever le style des listes */
+ul,
+ol {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+/* corriger l’affichage des images */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+.o_section_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5vh 5%;
+    padding: 5px;
+    text-align: left;
+}
+
+
+
+.o_section_2 .Projet .background-linear h2,
+p {
+    margin: 0 0;
+}
+
+.o_section_2 .Projet .background-linear h2 {
+
+    text-align: center;
+}
+
+.background-linear {
+    background: linear-gradient(#ff953e, #ffaa66);
+}
+
+.o_section_2 .Projet p {
+    padding: 10px;
+}
+
+.o_section_2 .Projet img {
+    width: auto;
+    height: auto;
+}
+
+.Projet {
+    width: 20%;
+}
+
+/* @media screen and (max-width: 767px) {
+    .o_section_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+        background-color: #f7d4d4;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 5px;
+        text-align: left;
+    }
+
+    .o_section_2 .Projet img {
+        max-width: 280px;
+        background-size: cover;
+        height: auto;
+
+    }
+} */
